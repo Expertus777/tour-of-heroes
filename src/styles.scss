@@ -1,5 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/scss/bootstrap-grid';
+@import './assets/animation';
+
 html {
   font-family: "Arial Black", Helvetica, sans-serif;;
+}
+
+button {
+  border: 2px solid black;
+  background: white;
+  color: #333333;
+  padding: 0 15px;
+  height: 30px;
+  line-height: 26px;
+  cursor: pointer;
+  &:hover {
+    color: white;
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 33%, #FC4F4F 66%, #00C0FF 100%);
+    animation: slideBackground 2s linear infinite;
+  }
 }

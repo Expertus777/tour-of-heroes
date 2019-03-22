@@ -1,0 +1,10 @@
+@keyframes hover {
+  0%   { background: white; color: black;}
+  100% { background: black; color: white; }
+}
+
+@keyframes slideBackground {
+  to {
+    background-position: 200px;
+  }
+}
